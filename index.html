@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quien es ese pokemon?</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main class="fetching">
+
+    <div id="pokemon-container">
+      <img id="pokeball" src="./imgs/pokeball.webp">
+      <img id="pokemon-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D">
+    </div>
+
+    <div id="answer">
+      <div id="bg-overlay"></div>
+      <div id="text-overlay"></div>
+    </div>
+
+    <section id="controls">
+      <button id="play">Puchale Play</button>
+      <div id="choices"></div>
+    </section>
+
+  </main>
+
+  <script src="./js/api.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
